@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutScreen = () => {
   return (
-    <div>
+    <div id='AboutScreen'>
     <div className="flex flex-col items-center justify-center min-h-screen bg-customGreenLight">
       <div className="flex flex-wrap justify-center gap-10 ">
         <div className=" text-center ">
