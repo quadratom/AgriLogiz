@@ -27,12 +27,12 @@ const AppScreen = () => {
 
             <div className="relative flex items-center justify-center bg-customGreenDark rounded-full overflow-hidden size-80">
                 <img
-                    src="closeup-hand.png"
+                    src="/closeup-hand.png"
                     alt="closeup-hand"
                     className="absolute object-cover w-full h-full"
                 />
                 <img
-                    src="appAgri.png"
+                    src="/appAgri.png"
                     alt="appAgri"
                     className="absolute object-cover w-18 h-9  pl-4"
                 />

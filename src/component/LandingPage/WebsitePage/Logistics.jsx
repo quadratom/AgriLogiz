@@ -8,7 +8,7 @@ const Logistics = () => {
                 Request Logistics
             </h1>
 
-            <div className="flex items-center justify-between space-x-20 mb-12 ">
+            <div className="flex flex-col md:flex-row   gap-y-6 items-center justify-between space-x-20 mb-12 ">
                 <div className="text-center justify-center space-y-10  ">
                     <div>
                         <div className="text-3xl font-bold text-customGreenLight  ">
@@ -38,7 +38,7 @@ const Logistics = () => {
                 <div className="w-full max-w-4xl bg-customVeryLightGray  rounded-lg shadow-lg p-8   ">
                     <form className="space-y-4">
                         <div className="relative w-full max-w-xs">
-                            <div className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-customGreenDark w-3 h-3 rounded-full"></div>
+                            <div className="md:absolute left-2 top-1/2 transform -translate-y-1/2 bg-customGreenDark w-3 h-3 rounded-full"></div>
                             <input
                                 type="text"
                                 id="pickup"

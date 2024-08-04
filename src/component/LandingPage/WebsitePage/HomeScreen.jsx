@@ -12,14 +12,14 @@ const HomeScreen = () => {
         >
             <div className="flex  items-center justify-center ml-20 gap-10 ">
                 <div className="text-start space-y-8">
-                    <div className="text-8xl text-white  font-bold mb-4">
+                    <div className="text-4xl sm:text-8xl text-white  font-bold mb-4">
                         AgriLogiz!
                     </div>
-                    <div className="text-start">
-                        <p className="text-2xl font-bold text-white">
+                    <div className="text-start text-xl">
+                        <p className=" font-bold text-white">
                             Connecting Farmers,
                         </p>
-                        <p className="text-2xl font-bold text-white">
+                        <p className="font-bold text-white">
                             Markets, and Communities
                         </p>
                     </div>
@@ -34,7 +34,7 @@ const HomeScreen = () => {
                     </div>
                 </div>
 
-                <div className="mx-10">
+                <div className="mx-10 hidden md:block">
                     <img
                         className=" relative  "
                         src="/Ellipse.png"

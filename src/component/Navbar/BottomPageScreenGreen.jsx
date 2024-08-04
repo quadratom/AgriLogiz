@@ -5,7 +5,7 @@ import Agrilogo from '../../assets/Agrilogo.png'
 
 const BottomPageScreenGreen = () => {
   return (
-    <footer className="min-h-screen bg-customGreenDark pt-10 pl-20  pb-10 pr-20 ">
+    <footer className="min-h-screen bg-customGreenMedium pt-10 pl-20  pb-10 pr-20 ">
             <div className=" ">
                 <div className="mb-10 md:mb-0">
                     <img

@@ -1,0 +1,54 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Why Farmers may Continue to Experience low Crop Yield",
+            "date": "2024-07-17",
+            "image": "https://i.postimg.cc/PrDRCtm2/agricultural.pngk",
+            "imagetitle": "agricultural",
+            "summary": "Nigeria's heart beats to the rhythm of agriculture. Millions of farmers, the backbone of the nation, toil tirelessly to cultivate the land and bring forth the food that nourishes a country. Today, we delve into their daily lives, celebrating their hard work and resilience.",
+            "content": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post.",
+            "content2": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post."
+        },
+        {
+            "id": 2,
+            "title": "The Modern Farmer: Exploring 21st Century Farming Techniques and Technologies",
+            "date": "2024-06-13",
+            "image": "https://i.postimg.cc/Rqx6qV4k/tap.png",
+            "imagetitle": "tap.png",
+            "summary": "Nigeria's heart beats to the rhythm of agriculture. Millions of farmers, the backbone of the nation, toil tirelessly to cultivate the land and bring forth the food that nourishes a country. Today, we delve into their daily lives, celebrating their hard work and resilience.",
+            "content": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post.",
+            "content2": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post."
+        },
+        {
+            "id": 3,
+            "title": "The Roles of Satellite Technology in Agriculture in Africa ",
+            "date": "2024-07-6",
+            "image": "https://i.postimg.cc/9MSq5YSF/Mask.png",
+            "imagetitle": "Mask.png",
+            "summary": "Nigeria's heart beats to the rhythm of agriculture. Millions of farmers, the backbone of the nation, toil tirelessly to cultivate the land and bring forth the food that nourishes a country. Today, we delve into their daily lives, celebrating their hard work and resilience.",
+            "content": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post.",
+            "content2": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post."
+        },
+        {
+            "id": 4,
+            "title": "Farmers Guide for Effective Record Keeping ",
+            "date": "2024-01-9",
+            "image": "https://i.postimg.cc/MZNLZcjn/man.png",
+            "imagetitle": "man.png",
+            "summary": "Nigeria's heart beats to the rhythm of agriculture. Millions of farmers, the backbone of the nation, toil tirelessly to cultivate the land and bring forth the food that nourishes a country. Today, we delve into their daily lives, celebrating their hard work and resilience.",
+            "content": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post.",
+            "content2": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post."
+        },
+        {
+            "id": 5,
+            "title": "Agricultural Marketing in the 21st Century ",
+            "date": "2034-11-3",
+            "image": "https://i.postimg.cc/CMztVCdy/lorry.png",
+            "imagetitle": "lorry.png",
+            "summary": "Nigeria's heart beats to the rhythm of agriculture. Millions of farmers, the backbone of the nation, toil tirelessly to cultivate the land and bring forth the food that nourishes a country. Today, we delve into their daily lives, celebrating their hard work and resilience.",
+            "content": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post.",
+            "content2": "This is the detailed content of the first blog post This is the detailed content of the first blog post This is the detailed content of the first blog post."
+        }
+    ]
+}

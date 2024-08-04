@@ -2,7 +2,7 @@ import React from 'react';
 
 const BenefitscreenPage = () => {
     return (
-        <div id='BenefitsreenPage' className="flex items-center justify-evenly min-h-screen bg-white gap-8 ">
+        <div id='BenefitsreenPage' className="flex flex-col md:flex-row py-8  md:py-0 items-center justify-evenly min-h-screen bg-white gap-8 ">
             <div className="flex flex-col text-center justify-center">
                 {/* First Row */}
                 <div className=" text-customGreenDark text-4xl font-bold">
@@ -17,7 +17,7 @@ const BenefitscreenPage = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row  justify-center space-x-20 gap-6 ">
+            <div className="flex   justify-center space-x-20 gap-6 ">
                 {/* Second Row */}
                 <div className="space-y-8">
                     <div className="flex flex-col items-center max-w-xs text-center">

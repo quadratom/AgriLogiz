@@ -13,7 +13,7 @@ const TopBar = () => {
             <img className='h-16' src={agri} alt="agri" />
         </div>
 
-        <div className='flex space-x-8 mt-10 p-4'>
+        <div className=' space-x-8 mt-10 p-4 hidden lg:flex'>
           <div className='flex space-x-4'>
             <div className='text-end text-sm'>
               <div className='font-normal'> WE ARE HERE</div>
@@ -42,7 +42,7 @@ const TopBar = () => {
             </div>
           </div>
           <div className='flex space-x-4 '>
-            <div className='text-end text-sm'>
+            <div className='text-end text-sm '>
               <div className='font-normal'>CHAT WITH US ON</div>
               <div className='font-medium'>+2340 000 000 000</div>
             </div>
