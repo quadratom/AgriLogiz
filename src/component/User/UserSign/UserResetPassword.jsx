@@ -5,7 +5,7 @@ import UserHomeBar from '../UserHomeBar';
 import UserFooter from '../UserFooter';
 import arrow from '../../../assets/arrow.png';
 
-const DriverResetPassword = () => {
+const UserResetPassword = () => {
     const { token } = useParams();
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
@@ -89,4 +89,4 @@ const DriverResetPassword = () => {
     );
 };
 
-export default DriverResetPassword;
+export default UserResetPassword ;

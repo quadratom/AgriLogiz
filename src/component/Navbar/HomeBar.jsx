@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomeBar = () => {
   return (
@@ -8,8 +9,8 @@ const HomeBar = () => {
         <a href="#AboutScreen" className="text-customGreenLight hover:text-white">About Us</a>
         <a href="#BenefitsreenPage" className="text-customGreenLight hover:text-white">Services</a>
         <a href="#ContactUs" className="text-customGreenLight hover:text-white">Contact</a>
-        <a href="#SignIn" className="text-customGreenLight hover:text-white">Login</a>
-        <a href="#SignUp" className="text-customGreenLight hover:text-white">Signup</a>
+        <Link to="/usersignselection" className="text-customGreenLight hover:text-white">Login</Link>
+        <Link to="/usersignselection" className="text-customGreenLight hover:text-white">Signup</Link>
       </nav>
     </div>
   )

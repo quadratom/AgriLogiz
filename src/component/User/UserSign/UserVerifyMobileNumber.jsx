@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import TopBar from '../../Navbar/TopBar';
 import UserHomeBar from '../UserHomeBar';
 import UserFooter from '../UserFooter';
-import verifyemail from '../../../assets/verifyemail.png'; // Replace with the correct path to your image
+import verifyImage from '../../../assets/verify-image.png'; // Replace with the correct path to your image
 
-const VerifyEmailAddress = () => {
+const UserVerifyMobileNumber = () => {
     const [otp, setOtp] = useState(new Array(6).fill(''));
     const [time, setTime] = useState(300);
 
@@ -45,17 +45,17 @@ const VerifyEmailAddress = () => {
             <div className="flex flex-col flex-grow justify-center items-center">
                 <div className="p-6 w-96 text-center">
                     <img
-                        src={verifyemail}
+                        src={verifyImage}
                         alt="Verify"
                         className="w-60 h-60 mx-auto mb-4"
                     />
                     <h2 className="text-2xl font-bold text-black mb-2">
-                        Verify Your Email
+                        Verify Your Mobile Number
                     </h2>
                     <div className="text-black font-bold mb-4">
                         <p>A 6 digit code has been sent to</p>
                         <p>
-                            you mail{' '}
+                            +234 903 4454 567{' '}
                             <a
                                 href="#"
                                 className="text-customGreenDark underline"
@@ -105,4 +105,4 @@ const VerifyEmailAddress = () => {
     );
 };
 
-export default VerifyEmailAddress;
+export default UserVerifyMobileNumber;

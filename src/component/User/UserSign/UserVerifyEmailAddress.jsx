@@ -3,8 +3,9 @@ import TopBar from '../../Navbar/TopBar';
 import UserHomeBar from '../UserHomeBar';
 import UserFooter from '../UserFooter';
 import verifyemail from '../../../assets/verifyemail.png'; // Replace with the correct path to your image
+import { Link } from 'react-router-dom';
 
-const VerifyEmailAddress = () => {
+const UserVerifyEmailAddress = () => {
     const [otp, setOtp] = useState(new Array(6).fill(''));
     const [time, setTime] = useState(300);
 
@@ -91,12 +92,14 @@ const VerifyEmailAddress = () => {
                                 Resend
                             </span>
                         </p>
+                        <Link to="/userverifyemailsuccessfull">
                         <button
                             type="submit"
                             className="bg-customGreenDark text-white text-xl font-bold w-full py-2 px-4 rounded-lg hover:bg-customYellow active:hover:bg-customGreenDark"
                         >
                             Verify
                         </button>
+                        </Link>
                     </form>
                 </div>
             </div>
@@ -105,4 +108,4 @@ const VerifyEmailAddress = () => {
     );
 };
 
-export default VerifyEmailAddress;
+export default UserVerifyEmailAddress;

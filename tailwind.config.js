@@ -11,6 +11,7 @@ export default {
       },
       backgroundImage: {
         'custom-bg': "url('/src/assets/agriuser.png')",
+        'custom-green-gradient': 'linear-gradient(to bottom, var(--tw-gradient-stops))'
       },
       colors: {
         customGreenLight: '#EAF4EB',
@@ -22,6 +23,10 @@ export default {
         customgreenBlack: '#1E211E' ,
         customred: '#FF0F00' 
       },
+      gradientColorStops: theme => ({
+        'custom-green-medium': theme('colors.customGreenMedium'),
+        'custom-green-dark': theme('colors.customGreenDark'),
+      }),
     },
   },
   plugins: [],
